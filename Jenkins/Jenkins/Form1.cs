@@ -20,5 +20,15 @@ namespace Jenkins
 
             InitializeComponent();
         }
+
+        private void btnYes_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Yes");
+        }
+
+        private void btnNo_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("No");
+        }
     }
 }
